@@ -1,0 +1,135 @@
+.main-box{
+   width: 100%;
+   height: 80vh;
+   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("images/banner.jpg") center/cover no-repeat;
+   background-position: center;
+   background-size: cover;
+   color: ghostwhite;
+   text-align: center;
+   padding-top: 30vh;
+}
+
+.main-box h1{
+   word-spacing: 10px;
+   margin-bottom: 0px;
+   font-size: 50px;
+   font-family: 'Staatliches', cursive;
+   letter-spacing: 1.5px;
+   color: ghostwhite;
+}
+.main-box p{
+   font-family: "Century Gothic", sans-serif;
+   font-size: 25px;
+   letter-spacing: 1.4px;
+   margin-bottom: 50px;
+   color: ghostwhite;
+}
+
+.main-box button{
+   padding: 20px;
+   border: none;
+   outline: none;
+   background: none;
+   font-family: 'Staatliches', cursive;
+   letter-spacing: 1.5px;
+   font-size: 20px;
+   border: 2px solid #dbd339;
+   color: #fff;
+}
+.main-box button:hover{
+   background: #dbd339;
+   font-family: 'Staatliches', cursive;
+   letter-spacing: 1.5px;
+   font-size: 20px;
+   color: black;
+}
+
+h4{
+   padding: 50px 0;
+   background-color: #141310;
+   text-align: center;
+   position: relative;
+   color: #bfbfb2;
+   font-size: 20px;
+   font-family: "Century Gothic", sans-serif;
+   letter-spacing: 1.5px;
+}
+
+.container{
+   width: 80%;
+   margin: auto;
+   margin-bottom: 30px;
+}
+.container h2{
+   color: #3e403f;
+   text-align: center;
+   margin: 30px;
+   font-family: 'Century Gothic', sans-serif;
+   letter-spacing: 5px;
+}
+.container h2::before, .container h2::after{
+   content: "-----";
+   letter-spacing: -5px;
+   font-weight: lighter;
+   margin: 0 20px 0 10px;
+}
+.container .row{
+   display: flex;
+   justify-content: space-between;
+}
+.container .column{
+   width: 32%;
+   height: auto;
+   position: relative;
+   overflow: hidden;
+}
+.container .column img{
+   width: 100%;
+   height: 100%;
+}
+.container .column a:last-child{
+   position: absolute;
+   display: block;
+   width: 100%;
+   height: 100;
+   top: 99%;
+   bottom: 0;
+   left: 0;
+   bottom: 0;
+   background-color: #e6d930;
+   font-family: 'Staatliches', cursive;
+   text-align: center;
+   padding-top: 14vw;
+   font-size: 2vw;
+   color: #ffffff;
+   text-decoration: none;
+}
+.container .column:hover a:last-child{
+   height: 100%;
+   top: 0;
+}
+
+.information{
+   padding: 50px;
+   background-color: #1f2124;
+   text-align: center;
+   font-family: 'Century Gothic', sans-serif;
+   color: #b2b5a5;
+   display: flex;
+   justify-content: space-between;
+   height: auto;
+   position: relative;
+   overflow: hidden;
+}
+
+.information .info{
+   margin-left: 100px;
+   margin-right: 100px;
+}
+.information h2{
+   color: #b2c265;
+}
+.information h3, a, p{
+   color: #b2b5a5;
+   text-decoration: none;
+}
